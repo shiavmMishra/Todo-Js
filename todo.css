@@ -1,0 +1,70 @@
+body{
+    background-image: url(https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2018/05/Gradient-Roundup-Illustrator-02.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#div1{
+    margin: auto;
+    margin-top:5%;
+    width:500px ;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+h1{
+    margin-left: 16%;
+}
+#input{
+    margin-left: 10px;
+    padding-left:10px ;
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+}
+#add-btn{
+    border:none;
+    width:70px;
+    height:35px;
+}
+#task-count{
+    margin-left: 10px;
+}
+#all{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: none;
+    /* background-color: yellow; */
+    background-color: Transparent;
+    /* border-bottom:1px solid black; */
+    cursor: pointer;
+}
+#complete{
+    margin-left: 68%;
+    background-color: Transparent;
+    border: none;
+    /* border-bottom:1px solid black; */
+    cursor: pointer;
+}
+#incomplete{
+    margin-top: 10px;
+    background-color: Transparent;
+    border: none;
+    /* border-bottom:1px solid black; */
+    cursor: pointer;
+}
+#all-complete{
+    margin-left: 65%;
+    background-color: Transparent;
+    border: none;
+    /* border-bottom:1px solid black; */
+    cursor: pointer;
+}
+#clear-complete{
+    margin-left: 84%;
+}
+#clear-complete button{
+    background-color: Transparent;
+    border: none;
+    /* border-bottom:1px solid black; */
+    cursor: pointer;
+}
