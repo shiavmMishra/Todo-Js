@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
+  <head>
     <title>Just Todo</title>
-    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" 
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="todo.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="todo.css" />
     <script src="https://use.fontawesome.com/b0db3aa219.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    </head>
-    <body>
+  </head>
+  <body>
     <div id="div1">
-        <h1><i class="fas fa-clipboard-list"></i>&nbspAdd Your Tasks Here!!</h1>
-        <button id="all">All Tasks</button>
-        <button id="complete">Completed</button>
-            <input id="input" type="text" placeholder="Type Here...">
-            <button id="add-btn">Add</button>
-            <div id="task-list">
-            <ul>
-
-            </ul>
-            </div>    
-            <div><span id="task-count">0</span> Tasks Left</div>    
-            <button id="incomplete">Incomplete</button>
-            <button id="all-complete">Complete All</button>
-            <div id="clear-complete"><i class="fa fa-trash"></i><button>Clear All</button></div>
+      <h1><i class="fas fa-clipboard-list"></i>&nbspAdd Your Tasks Here!!</h1>
+      <button id="all">All Tasks</button>
+      <button id="complete">Completed</button>
+      <input id="input" type="text" placeholder="Type here to add..." />
+      <button id="add-btn">Add</button>
+      <div id="task-list">
+        <ul></ul>
+      </div>
+      <div><span id="task-count">0</span> Tasks Left</div>
+      <button id="incomplete">Incomplete</button>
+      <button id="all-complete">Complete All</button>
+      <div id="clear-complete">
+        <i class="fa fa-trash"></i><button>Clear All</button>
+      </div>
     </div>
     <script src="todo.js"></script>
-    </body>
+  </body>
 </html>
